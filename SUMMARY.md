@@ -1,14 +1,16 @@
 
-* [简介](intro/README.md)
- - [目的](intro/goals.md)
+* [简介](intro/README.md)
+ - [背景](intro/background.md)
  - [问题](intro/challenges.md)
  - [私服](intro/private-repo.md)
-* [方案]
- - [拓扑结构][]
- - [读高可用]
- - [写高可用]
-* [管理]
- - [权限]
- - [维护]
-* [备份]
-*
+* [方案](solution/README.md)
+ - [拓扑结构](solution/toplog.md)
+ - [Nexus代理](solution/nexus-proxies.md)
+ - [Nexus主机](solution/nexus-master.md)
+* [维护](maintain/README.md)
+ - [权限](maintain/accounts.md)
+ - [清理](maintain/cleanup.md)
+ - [备份](maintain/backup.md)
+ - [优化](maintain/optimize.md)
+* [使用](usage/README.md)
+ - [版本号](usage/version-number.md)
