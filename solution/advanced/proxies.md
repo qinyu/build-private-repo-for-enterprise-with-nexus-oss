@@ -1,6 +1,6 @@
-# Nexus代理
+# 代理集群
 
-![Nexus代理](nexus-proxies.png)
+![代理](proxies.png)
 
 详细方案：
 * Nexus代理群是多台Nexus OSS服务  
