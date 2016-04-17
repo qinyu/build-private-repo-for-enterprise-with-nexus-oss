@@ -31,13 +31,14 @@ Nexus的配置需要注意：
  * **管理员** 超级用户，负责Nexus管理，包括仓库增删改查，代理配置，日志查看，定时任务配置，索引数据重建
  * **匿名用户** 使用Nexus上的交付件作为依赖开发，只能搜索和查看交付件，只能查看储仓库
  * **发布者** 用于把交付件上传到Nexus仓库
-5. Hosted仓库分为
+5. Hosted仓库和Proxy仓库配置请参考官方文档。
 
 ### 两台服务器配置同步
 需要在两台服务器之间同步Nexus工作空间，包括了以下目录：
 * **nexus/conf** 配置文件
 * **nexus/log** 日志文件
-* **nexus/timeline** 重要系统事件
+* **nexus/timeline** 重要系统事件  
+
 同步方法参考：http://blog.sonatype.com/2010/01/how-to-backup-nexus-configuration-and-repository-artifacts/
 
 ### Nignx反向代理
@@ -49,12 +50,3 @@ Nexus主机对于用户来说是透明的。用户通过唯一的域名访问。
 高可用存储用于存储Hosted Repos的二进制文件。
 建议磁盘空间：2T，数据来源(http://blog.sonatype.com/2012/01/sizing-nexus-how-much-space-do-you-need/)
 **TBD**
-
-### Nexus权限配置
-
-
-### Hosted仓库
-一般包括Release、Snapshots和ThirdParty。
-
-### 代理仓库
-按需配置

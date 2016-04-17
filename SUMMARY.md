@@ -9,5 +9,6 @@
  - [运维](solution/maintain/README.md)
    - [备份](solution/maintain/backup.md)
    - [清理](solution/maintain/cleanup.md)
+   - [监控](solution/maintain/monitor.md)
 * [使用](usage/README.md)
  - [版本号](usage/version-number.md)
